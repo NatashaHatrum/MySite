@@ -77,7 +77,20 @@
     color: rgba(117, 188, 190, 0.51);
 }
 
+@media screen and (max-width: 992px) {
+    .border {
+        min-width: 300px;
+    }
+    .containerFoto {
+        width: 250px;
+        height: 250px;
+    }
+    .textTitleShadow2 {
+        font-size: 50px;
+    }
+}
 @media screen and (max-width: 1400px) {
+
     .tempCol6 {
         max-width: 300px;
         margin: 0 15% 4% 5%;
@@ -85,4 +98,4 @@
     .textTitleShadow2 {
         font-size: 50px;
     }
-}
+  }
