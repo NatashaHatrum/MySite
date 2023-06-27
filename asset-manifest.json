@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/MySite/static/css/main.fbf38b03.css",
+    "main.js": "/MySite/static/js/main.e69c28df.js",
+    "static/js/787.e5a4ddb7.chunk.js": "/MySite/static/js/787.e5a4ddb7.chunk.js",
+    "static/media/AboutMe.png": "/MySite/static/media/AboutMe.332c1fde55040c4cae55.png",
+    "static/media/HoverProect.png": "/MySite/static/media/HoverProect.5250b06efef0cc591181.png",
+    "static/media/ImageHeader.jpg": "/MySite/static/media/ImageHeader.a2f3ca0adf238abd4ae6.jpg",
+    "static/media/Balandowka.jpg": "/MySite/static/media/Balandowka.b636b6447f70eb0a60c5.jpg",
+    "static/media/NatalliaTarkaCV.pdf": "/MySite/static/media/NatalliaTarkaCV.d8feb2ff4328b7dbbfa0.pdf",
+    "static/media/MemoryGame.png": "/MySite/static/media/MemoryGame.eeb25deb771149934747.png",
+    "static/media/Shubinica.png": "/MySite/static/media/Shubinica.31fc59fbe71785214456.png",
+    "static/media/ZnajdeTo.jpg": "/MySite/static/media/ZnajdeTo.46b7a788d39471c5f81c.jpg",
+    "index.html": "/MySite/index.html",
+    "main.fbf38b03.css.map": "/MySite/static/css/main.fbf38b03.css.map",
+    "main.e69c28df.js.map": "/MySite/static/js/main.e69c28df.js.map",
+    "787.e5a4ddb7.chunk.js.map": "/MySite/static/js/787.e5a4ddb7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fbf38b03.css",
+    "static/js/main.e69c28df.js"
+  ]
+}
