@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/MySite/static/css/main.fbf38b03.css",
-    "main.js": "/MySite/static/js/main.e69c28df.js",
+    "main.css": "/MySite/static/css/main.93af508b.css",
+    "main.js": "/MySite/static/js/main.81f57724.js",
     "static/js/787.e5a4ddb7.chunk.js": "/MySite/static/js/787.e5a4ddb7.chunk.js",
     "static/media/AboutMe.png": "/MySite/static/media/AboutMe.332c1fde55040c4cae55.png",
     "static/media/HoverProect.png": "/MySite/static/media/HoverProect.5250b06efef0cc591181.png",
@@ -12,12 +12,12 @@
     "static/media/Shubinica.png": "/MySite/static/media/Shubinica.31fc59fbe71785214456.png",
     "static/media/ZnajdeTo.jpg": "/MySite/static/media/ZnajdeTo.46b7a788d39471c5f81c.jpg",
     "index.html": "/MySite/index.html",
-    "main.fbf38b03.css.map": "/MySite/static/css/main.fbf38b03.css.map",
-    "main.e69c28df.js.map": "/MySite/static/js/main.e69c28df.js.map",
+    "main.93af508b.css.map": "/MySite/static/css/main.93af508b.css.map",
+    "main.81f57724.js.map": "/MySite/static/js/main.81f57724.js.map",
     "787.e5a4ddb7.chunk.js.map": "/MySite/static/js/787.e5a4ddb7.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fbf38b03.css",
-    "static/js/main.e69c28df.js"
+    "static/css/main.93af508b.css",
+    "static/js/main.81f57724.js"
   ]
 }
