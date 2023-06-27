@@ -32,7 +32,7 @@ const ProjectItem = [
         name: 'Hangman game',
         href:'https://github.com/NatashaHatrum/GraSzubienica',
         img: fotoProject4,
-        text: "Hangman game - s a game where you have to guess the word from the system and make it from letters. If the user makes a mistake, he draws a hangman's picture in parts until he draws it completely or guesses the word."
+        text: "Hangman game - it's a game where you have to guess the word from the system and make it from letters. If the user makes a mistake, he draws a hangman's picture in parts until he draws it completely or guesses the word."
     },
     {
         name: 'Hover project ',
