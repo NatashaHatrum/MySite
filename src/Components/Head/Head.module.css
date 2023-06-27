@@ -1,0 +1,114 @@
+body {
+    background: black;
+}
+
+.tempRow1 {
+    max-width: 1440px;
+}
+
+.tempRow2 {
+    min-height: 35vh;
+    align-items: end;
+}
+
+.tempRow3 {
+
+    min-height: 48vh;
+    align-items: end;
+
+}
+
+/*.title{
+    color: white!important;
+    font-size: 56px;
+ }*/
+.titleContainer span {
+    text-transform: uppercase;
+    display: block;
+}
+
+.text1 {
+    color: white;
+    font-size: 56px;
+    font-weight: 500;
+    letter-spacing: 8px;
+    background: #000;
+    position: relative;
+    animation: text 3s 1;
+
+}
+
+.text2 {
+    font-family: 'Changa', sans-serif;
+    font-size: 30px;
+    color: cadetblue;
+    animation: text2 3s 1;
+}
+
+.buttonCV {
+    background-color: cadetblue !important;
+    border: none !important;
+    position: fixed;
+
+}
+
+.buttonCV:hover {
+    color: cadetblue !important;
+    border-color: cadetblue !important;
+}
+
+@keyframes text {
+    0% {
+        color: #000000;
+        margin-bottom: -70px;
+        text-shadow: 3px 3px 25px #ff47dd;
+    }
+    30% {
+        letter-spacing: 20px;
+        margin-bottom: -70px;
+        text-shadow: 3px 3px 25px #ff47dd;
+    }
+    85% {
+        letter-spacing: 8px;
+        margin-bottom: -70px;
+
+    }
+
+}
+
+@keyframes text2 {
+    85% {
+        color: #000000;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .tempRow1 {
+        max-width: 100vw;
+    }
+
+    .text1 {
+        font-size: 26px;
+        font-weight: 200;
+        line-height: normal;
+        animation: none;
+        background: none;
+    }
+
+    .text2 {
+        font-family: 'Changa', sans-serif;
+        font-size: 18px;
+        line-height: normal;
+        animation: none;
+    }
+    .tempRow2 {
+        align-items: center;
+        min-height: 15vh;
+
+
+    }
+.buttonCV{
+    display: none;
+}
+}

@@ -1,0 +1,86 @@
+
+.tempRow5 {
+    padding-top: 5%;
+    min-height: 20vh;
+    align-items: center;
+}
+
+.textTitle2 {
+
+    text-align: center;
+    text-transform: uppercase;
+    color: cadetblue !important;
+    font-family: 'Fredericka the Great', cursive;
+
+}
+
+.textTitleShadow2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: cadetblue !important;
+    font-family: 'Fredericka the Great', cursive;
+    margin: 0 !important;
+    position: absolute;
+    font-size: 70px;
+    opacity: 15%;
+    top: -3%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.titleSkils {
+    color: black;
+    font-family: 'Changa', sans-serif;
+    text-align: center;
+}
+
+.titleSkilsText {
+    text-align: center;
+    margin: 0;
+}
+
+.titleSkilsText p {
+    margin: 0 0 20px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.titleSkils h2 {
+    margin: 0;
+    font-size: 28px;
+    color: cadetblue !important;
+}
+
+.tempRow6 {
+    justify-content: center;
+}
+
+.skills {
+    font-size: 12px;
+}
+
+.tempCol2{
+    margin-top: 3%;
+}
+.tempRow7{
+    text-align: center;
+    padding-top: 3%;
+}
+.circle{
+    padding-right: 25px;
+    padding-top: 8%;
+}
+.skillsLanguage{
+  padding: 10px 25px 0 0;
+}
+
+@media screen and (max-width: 992px) {
+    .textTitleShadow2 {
+        font-size: 50px;
+    }
+
+    .tempRow5 {
+        align-items: center;
+    }
+}

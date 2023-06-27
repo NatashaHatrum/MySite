@@ -1,0 +1,63 @@
+.textTitle2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: cadetblue !important;
+    font-family: 'Fredericka the Great', cursive;
+
+}
+
+.textTitleShadow2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: cadetblue !important;
+    font-family: 'Fredericka the Great', cursive;
+    margin: 0 !important;
+    position: absolute;
+    font-size: 70px;
+    opacity: 15%;
+    top: -3%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.tempRow6 {
+    margin-top: 5%;
+    margin-bottom: 2%;
+    align-items: center;
+}
+
+.tempRow7 {
+    min-height: 530px;
+
+}
+
+.contactItem {
+    padding-bottom: 3%;
+}
+
+.contactItem a {
+    color: black;
+}
+
+.contactItem a:hover {
+    color: cadetblue;
+}
+
+.section1 {
+    text-align: justify;
+}
+
+@media screen and (max-width: 992px) {
+    .textTitleShadow2 {
+        font-size: 50px;
+    }
+
+    .tempCol3 {
+        margin-top: 5%;
+    }
+
+    .contactItem {
+        padding-bottom: 5%;
+    }
+}
