@@ -54,7 +54,7 @@ const Portfolio = () => {
             </Row>
             <Row justify="center">
                 {ProjectItem.map((el, index) =>
-                    <Col key={index} className={style.tempCol6} span={8}>
+                    <Col key={index} className={style.tempCol6} xs={{span:12}} lg={{span: 8}} xl={{span: 8}} xxl={{span: 8}}>
                         <div className={style.border}>
                         <div><h2 className={style.titleProjects}>{el.name}</h2></div>
                         <div className={style.containerFoto}><a href={el.href} target="_blank"><img

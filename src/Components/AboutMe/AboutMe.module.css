@@ -54,4 +54,7 @@
         font-size: 50px;
         top: 0
     }
+    .paragrafText p{
+      padding: 0 15px 0 15px ;
+    }
 }
