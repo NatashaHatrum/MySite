@@ -18,7 +18,7 @@ const AppMenu = () => {
                 <Row justify='end'>
                     <Col xs={{span:12}} lg={{span: 13}} xl={{span: 11}} xxl={{span: 11}}>
 
-                        <Menu className={style.menuApp} style={{
+                        <Menu  style={{
                             backgroundColor: "transparent",
                             textTransform: "uppercase",
                             fontSize: "20px",
@@ -28,7 +28,6 @@ const AppMenu = () => {
                                   [
                                       {
                                           label: <Link to="section1"
-                                                       activeClass={style.active}
                                                        spy={true}
                                                        smooth={true}
                                                        offset={-70}
@@ -41,7 +40,6 @@ const AppMenu = () => {
                                       {
                                           label:
                                               <Link to="section2"
-                                                    activeClass={style.active}
                                                     spy={true}
                                                     smooth={true}
                                                     offset={-70}
@@ -55,7 +53,6 @@ const AppMenu = () => {
                                       {
                                           label:
                                               <Link to="section3"
-                                                    activeClass={style.active}
                                                     spy={true}
                                                     smooth={true}
                                                     offset={-70}
@@ -69,7 +66,6 @@ const AppMenu = () => {
                                       {
                                           label:
                                               <Link to="section4"
-                                                    activeClass={style.active}
                                                     spy={true}
                                                     smooth={true}
                                                     offset={-70}

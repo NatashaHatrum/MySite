@@ -1,3 +1,24 @@
 .menuItems{
     font-size: 25px!important;
 }
+.menuContainer{
+    width: 350px;
+    z-index: 200;
+    position: relative;
+    text-align: end;
+}
+.menuContainer2{
+    width: 293px;
+    position: absolute;
+    justify-content: center;
+    margin-top: -49px;
+}
+
+@media screen and (max-width: 380px) {
+.menuContainer{
+    width: 320px!important;
+}
+    .menuContainer2{
+        width: 270px;
+    }
+}

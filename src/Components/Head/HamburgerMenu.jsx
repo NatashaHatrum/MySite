@@ -38,15 +38,7 @@ const HamburgerMenu = () => {
     return (
         <>
 
-            <div
-                style={{
-                    width: '350px',
-                    zIndex: '200',
-                    position: 'relative',
-                    textAlign: 'end',
-
-                }}
-            >
+            <div className={style.menuContainer}>
                         <Button
                             type="primary"
                             onClick={toggleCollapsed}
@@ -61,12 +53,7 @@ const HamburgerMenu = () => {
                             {collapsed ? <MenuUnfoldOutlined/> : <MenuFoldOutlined/>}
                         </Button>
                 {collapsed ? <Menu
-                    style={{
-                        width: '293px',
-                        position: 'absolute',
-                        justifyContent: 'center',
-                        marginTop:'-49px'
-                    }}
+                    className={style.menuContainer2}
                     mode="inline"
                     onClick={(menuItem) => setCurrentSelected(menuItem.key)}
                     theme="light"
@@ -92,7 +79,7 @@ const HamburgerMenu = () => {
                                           offset={-70}
                                           duration={800}
                                           className={style.menuItems}
-                                    ><a href={'/#section2'}>Education</a></Link>,
+                                    >Education</Link>,
 
                                 key: 'section2',
                                 id: '#section2'
